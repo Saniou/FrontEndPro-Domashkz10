@@ -7,10 +7,10 @@
 //   }
 //   console.log(Math.pow(2,8));
 
-function pow(num, degree) {
+function pow( num, degree ) {
   if(degree === 1) {
       return num;
-  }else{
+  } else {
       return num * pow(num, degree - 1);
   }
 }
